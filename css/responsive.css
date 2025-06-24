@@ -1,0 +1,39 @@
+/* site responsive styles */
+/* query sm (576) styles */
+/* query md (768) styles */
+/* query lg (992) styles */
+/* query lgwd (1025) styles */
+/* query xl (1230) styles */
+/* query xlwd (1330) styles */
+/* query xxl (1920) styles */
+/* query others (down & between) styles */
+@media (max-width: 767.98px) {
+  .pageMainNavCollapse {
+    height: auto !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    display: block !important;
+    -webkit-transition: height 0.3s ease, -webkit-transform 0.3s ease !important;
+    transition: height 0.3s ease, -webkit-transform 0.3s ease !important;
+    transition: height 0.3s ease, transform 0.3s ease !important;
+    transition: height 0.3s ease, transform 0.3s ease,
+      -webkit-transform 0.3s ease !important;
+  }
+}
+@media (max-width: 767px) {
+  .containerFluidSmall {
+    max-width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .bookingFormWrap .filterHolder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
